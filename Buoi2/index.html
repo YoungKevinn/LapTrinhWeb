@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đỗ Minh Khoa</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body class="light-mode">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="logo-tag">&lt;profile /&gt;</span>
+      <div class="header-controls">
+        <button id="btn-darkmode" class="ctrl-btn" title="Chuyển giao diện">
+          <span class="icon">☀</span>
+          <span class="label">Light</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card profile-card">
+      <div class="card-header">
+        <span class="card-tag">01</span>
+        <h2>Thông Tin Cá Nhân</h2>
+        <button id="btn-edit" class="action-btn">✎ Chỉnh sửa</button>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-row">
+          <span class="field-label">Họ và tên</span>
+          <span class="field-value" id="display-name">Đỗ Minh Khoa</span>
+        </div>
+        <div class="profile-row">
+          <span class="field-label">MSSV</span>
+          <span class="field-value" id="display-mssv">2387700031</span>
+        </div>
+        <div class="profile-row">
+          <span class="field-label">Lớp</span>
+          <span class="field-value" id="display-class">23DATA1</span>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal-overlay" class="modal-overlay hidden">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h3>✎ Cập nhật thông tin</h3>
+          <button id="modal-close" class="close-btn">✕</button>
+        </div>
+        <div class="modal-body">
+          <label class="input-group">
+            <span>Họ và tên</span>
+            <input type="text" id="input-name" placeholder="Nhập họ và tên..." />
+          </label>
+          <label class="input-group">
+            <span>MSSV</span>
+            <input type="text" id="input-mssv" placeholder="Nhập MSSV..." />
+          </label>
+          <label class="input-group">
+            <span>Lớp</span>
+            <input type="text" id="input-class" placeholder="Nhập lớp..." />
+          </label>
+        </div>
+        <div class="modal-footer">
+          <button id="btn-cancel" class="btn-ghost">Hủy</button>
+          <button id="btn-save" class="btn-primary">Lưu thay đổi</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="card hobby-card">
+      <div class="card-header">
+        <span class="card-tag">02</span>
+        <h2>Sở Thích</h2>
+      </div>
+
+      <ul id="hobby-list" class="hobby-list">
+        <li class="hobby-item"><span class="bullet">▸</span> Lập trình</li>
+        <li class="hobby-item"><span class="bullet">▸</span> Bóng đá</li>
+        <li class="hobby-item"><span class="bullet">▸</span> Đọc sách</li>
+      </ul>
+
+      <div class="add-hobby-row">
+        <input type="text" id="input-hobby" class="hobby-input" placeholder="Nhập sở thích mới..." />
+        <button id="btn-add-hobby" class="action-btn">+ Thêm</button>
+      </div>
+      <p id="hobby-error" class="error-msg hidden">Vui lòng nhập sở thích trước khi thêm!</p>
+    </section>
+
+    <section class="card code-card">
+      <div class="card-header">
+        <span class="card-tag">03</span>
+        <h2>Mã Nguồn Mẫu</h2>
+        <button id="btn-toggle-code" class="action-btn">Ẩn / Hiện</button>
+      </div>
+
+      <div id="code-block" class="code-block">
+        <div class="code-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-filename">profile.js</span>
+        </div>
+        <pre><code><span class="c-keyword">const</span> <span class="c-var">profile</span> = {
+  <span class="c-key">name</span>:  <span class="c-str">"Nguyễn Văn A"</span>,
+  <span class="c-key">mssv</span>:  <span class="c-str">"21001234"</span>,
+  <span class="c-key">class</span>: <span class="c-str">"CNTT01-K21"</span>,
+  <span class="c-key">hobbies</span>: [<span class="c-str">"Lập trình"</span>, <span class="c-str">"Bóng đá"</span>],
+};
+
+<span class="c-keyword">function</span> <span class="c-fn">greet</span>(<span class="c-var">p</span>) {
+  <span class="c-keyword">return</span> <span class="c-str">`Xin chào, </span><span class="c-tpl">${<span class="c-var">p</span>.name}</span><span class="c-str">!`</span>;
+}
+
+console.<span class="c-fn">log</span>(<span class="c-fn">greet</span>(<span class="c-var">profile</span>));
+</code></pre>
+      </div>
+      <p id="code-hidden-notice" class="notice hidden">🔒 Mã nguồn đang bị ẩn. Nhấn nút để hiển thị lại.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2025 &lt;profile /&gt; — Bài tập Lập trình Web</span>
+  </footer>
+
+  <script src="js/darkmode.js"></script>
+  <script src="js/profile.js"></script>
+  <script src="js/hobbies.js"></script>
+  <script src="js/code-toggle.js"></script>
+</body>
+</html>
