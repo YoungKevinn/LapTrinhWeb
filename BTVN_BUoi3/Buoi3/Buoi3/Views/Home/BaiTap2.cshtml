@@ -1,0 +1,20 @@
+﻿@model Buoi3.Models.SanPhamViewModel
+
+<h2>Thông tin sản phẩm</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <td><strong>Tên sản phẩm:</strong></td>
+        <td>@Model.TenSanPham</td>
+    </tr>
+    <tr>
+        <td><strong>Giá bán:</strong></td>
+        <td>@Model.GiaBan.ToString("N0") VNĐ</td>
+    </tr>
+    <tr>
+        <td><strong>Ảnh mô tả:</strong></td>
+        <td>
+            <img src="~/images/@Model.AnhMoTa" alt="@Model.TenSanPham" width="200" />
+        </td>
+    </tr>
+</table>

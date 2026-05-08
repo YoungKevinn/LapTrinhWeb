@@ -1,0 +1,33 @@
+﻿@model Buoi3.Models.StudentViewModel
+
+<h2>Đăng ký chuyên ngành - Khoa CNTT</h2>
+
+<form method="post" action="/Student/Index">
+    <div>
+        <label>MSSV:</label>
+        <input type="text" name="MSSV" required />
+    </div>
+    <br />
+    <div>
+        <label>Họ tên:</label>
+        <input type="text" name="HoTen" required />
+    </div>
+    <br />
+    <div>
+        <label>Điểm TB:</label>
+        <input type="number" step="0.1" name="DiemTB" required />
+    </div>
+    <br />
+    <div>
+        <label>Chuyên ngành:</label>
+        <select name="ChuyenNganh">
+            <option value="CNPM">CNPM</option>
+            <option value="HTTT">HTTT</option>
+            <option value="ANM">ANM</option>
+            <option value="TTNT">TTNT</option>
+            <option value="MMT">MMT</option>
+        </select>
+    </div>
+    <br />
+    <button type="submit">Đăng ký</button>
+</form>
