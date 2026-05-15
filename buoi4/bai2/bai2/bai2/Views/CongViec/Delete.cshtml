@@ -1,0 +1,29 @@
+﻿@model bai2.Models.CongViec
+
+<div class="container mt-4">
+    <h1>Xóa công việc</h1>
+
+    <h3>Bạn có chắc chắn muốn xóa công việc này không?</h3>
+
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-3">Mã công việc</dt>
+        <dd class="col-sm-9">@Model.MaCongViec</dd>
+
+        <dt class="col-sm-3">Tên công việc</dt>
+        <dd class="col-sm-9">@Model.TenCongViec</dd>
+
+        <dt class="col-sm-3">Trạng thái hoàn thành</dt>
+        <dd class="col-sm-9">
+            <input type="checkbox" checked="@Model.TrangThaiHoanThanh" disabled />
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" name="id" value="@Model.MaCongViec" />
+
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Quay trở lại</a>
+    </form>
+</div>

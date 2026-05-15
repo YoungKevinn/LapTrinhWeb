@@ -1,0 +1,28 @@
+﻿@{
+    var actors = new List<Actor>
+    {
+        new Actor { Name = "Phương Anh Đào", Height = 160, Role = "Mai" },
+        new Actor { Name = "Tuấn Trần", Height = 170, Role = "Dương (sầu)" },
+        new Actor { Name = "Trấn Thành", Height = 150, Role = "Ông Hoàng" }
+    };
+}
+
+<div style="min-height: 70vh; display: flex; justify-content: center; align-items: center;">
+    <ul>
+        @foreach (var actor in actors)
+        {
+            <li>
+                <strong>@actor.Name</strong> - Chiều cao: @actor.Height cm - Vai diễn:
+
+                @if (actor.Height >= 160)
+                {
+                    <strong>@actor.Role</strong>
+                }
+                else
+                {
+                    @actor.Role
+                }
+            </li>
+        }
+    </ul>
+</div>

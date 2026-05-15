@@ -1,0 +1,32 @@
+﻿@model bai2.Models.CongViec
+
+<div class="container mt-4">
+    <h1>Thêm mới công việc</h1>
+
+    <hr />
+
+    <form asp-action="Create" method="post">
+        <div class="form-group mb-3">
+            <label asp-for="MaCongViec">Mã công việc</label>
+            <input asp-for="MaCongViec" class="form-control" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="TenCongViec">Tên công việc</label>
+            <input asp-for="TenCongViec" class="form-control" />
+        </div>
+
+        <div class="form-group form-check mb-3">
+            <input asp-for="TrangThaiHoanThanh" class="form-check-input" />
+            <label asp-for="TrangThaiHoanThanh" class="form-check-label">
+                Trạng thái hoàn thành
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Tạo mới</button>
+    </form>
+
+    <br />
+
+    <a asp-action="Index">Quay trở lại</a>
+</div>

@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\buoi4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B529EB7-AAEA-44F7-A404-C0FD8F7C6D74}|buoi4\\buoi4.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\buoi4\\buoi4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B529EB7-AAEA-44F7-A404-C0FD8F7C6D74}|buoi4\\buoi4.csproj|solutionrelative:buoi4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B529EB7-AAEA-44F7-A404-C0FD8F7C6D74}|buoi4\\buoi4.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\buoi4\\buoi4\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B529EB7-AAEA-44F7-A404-C0FD8F7C6D74}|buoi4\\buoi4.csproj|solutionrelative:buoi4\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\buoi4\\buoi4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "buoi4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\buoi4\\buoi4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "buoi4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T02:41:01.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\buoi4\\buoi4\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "buoi4\\Models\\Actor.cs",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\buoi4\\buoi4\\Models\\Actor.cs",
+              "RelativeToolTip": "buoi4\\Models\\Actor.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T02:40:42.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

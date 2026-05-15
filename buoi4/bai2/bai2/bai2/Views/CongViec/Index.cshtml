@@ -1,0 +1,38 @@
+﻿@model IEnumerable<bai2.Models.CongViec>
+
+<div class="container mt-4">
+    <h1>DANH SÁCH CÔNG VIỆC</h1>
+
+    <p>
+        <a asp-action="Create">Tạo mới công việc</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã công việc</th>
+                <th>Tên công việc</th>
+                <th>Trạng thái hoàn thành</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaCongViec</td>
+                    <td>@item.TenCongViec</td>
+                    <td>
+                        <input type="checkbox" checked="@item.TrangThaiHoanThanh" disabled />
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaCongViec">Sửa</a> |
+                        <a asp-action="Details" asp-route-id="@item.MaCongViec">Chi tiết</a> |
+                        <a asp-action="Delete" asp-route-id="@item.MaCongViec">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

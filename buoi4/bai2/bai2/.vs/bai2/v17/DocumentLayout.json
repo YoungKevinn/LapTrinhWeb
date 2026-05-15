@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\models\\congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\models\\congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\views\\congviec\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\views\\congviec\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\views\\congviec\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\views\\congviec\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\views\\congviec\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\views\\congviec\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\views\\congviec\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\views\\congviec\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|d:\\documents\\tailieu\\laptrinhweb\\buoi4\\bai2\\bai2\\bai2\\views\\congviec\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E8DD0B-F223-4CBD-BAC0-785B21A0886C}|bai2\\bai2.csproj|solutionrelative:bai2\\views\\congviec\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "bai2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "bai2\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T03:29:05.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Delete.cshtml",
+              "RelativeDocumentMoniker": "bai2\\Views\\CongViec\\Delete.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Delete.cshtml",
+              "RelativeToolTip": "bai2\\Views\\CongViec\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T03:28:36.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Details.cshtml",
+              "RelativeDocumentMoniker": "bai2\\Views\\CongViec\\Details.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Details.cshtml",
+              "RelativeToolTip": "bai2\\Views\\CongViec\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T03:28:05.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Edit.cshtml",
+              "RelativeDocumentMoniker": "bai2\\Views\\CongViec\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Edit.cshtml",
+              "RelativeToolTip": "bai2\\Views\\CongViec\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T03:27:46.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Create.cshtml",
+              "RelativeDocumentMoniker": "bai2\\Views\\CongViec\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Create.cshtml",
+              "RelativeToolTip": "bai2\\Views\\CongViec\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T03:27:32.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Index.cshtml",
+              "RelativeDocumentMoniker": "bai2\\Views\\CongViec\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Views\\CongViec\\Index.cshtml",
+              "RelativeToolTip": "bai2\\Views\\CongViec\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T03:26:59.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CongViecController.cs",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Controllers\\CongViecController.cs",
+              "RelativeDocumentMoniker": "bai2\\Controllers\\CongViecController.cs",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Controllers\\CongViecController.cs",
+              "RelativeToolTip": "bai2\\Controllers\\CongViecController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T03:25:04.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CongViec.cs",
+              "DocumentMoniker": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Models\\CongViec.cs",
+              "RelativeDocumentMoniker": "bai2\\Models\\CongViec.cs",
+              "ToolTip": "D:\\Documents\\TaiLieu\\LapTrinhWeb\\buoi4\\bai2\\bai2\\bai2\\Models\\CongViec.cs",
+              "RelativeToolTip": "bai2\\Models\\CongViec.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T03:24:38.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

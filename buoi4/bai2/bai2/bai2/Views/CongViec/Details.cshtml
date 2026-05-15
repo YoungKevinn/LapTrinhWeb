@@ -1,0 +1,23 @@
+﻿@model bai2.Models.CongViec
+
+<div class="container mt-4">
+    <h1>Chi tiết công việc</h1>
+
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-3">Mã công việc</dt>
+        <dd class="col-sm-9">@Model.MaCongViec</dd>
+
+        <dt class="col-sm-3">Tên công việc</dt>
+        <dd class="col-sm-9">@Model.TenCongViec</dd>
+
+        <dt class="col-sm-3">Trạng thái hoàn thành</dt>
+        <dd class="col-sm-9">
+            <input type="checkbox" checked="@Model.TrangThaiHoanThanh" disabled />
+        </dd>
+    </dl>
+
+    <a asp-action="Edit" asp-route-id="@Model.MaCongViec">Sửa</a> |
+    <a asp-action="Index">Quay trở lại</a>
+</div>
